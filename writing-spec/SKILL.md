@@ -13,7 +13,7 @@ Use `npx skills` for install and verification:
 npx skills add vercel-labs/agent-skills@<skill-name>
 
 # Install from a GitHub repo
-npx skills add <owner/repo>
+npx skills add gbenga238/writing-spec
 
 # List installed skills (local)
 npx skills list
@@ -22,10 +22,10 @@ npx skills list
 npx skills ls -g
 
 # Install globally
-npx skills add <owner/repo> -g
+npx skills add gbenga238/writing-spec -g
 
 # Install to a specific agent
-npx skills add <owner/repo> -a <agent-name>
+npx skills add gbenga238/writing-spec -a claude-code
 ```
 
 Default install paths are typically `./.claude/skills` or `./.agent/skills`.
