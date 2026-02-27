@@ -10,8 +10,6 @@ Use this skill to create or refine feature specs with a strict flow:
 Use `npx skills` for install and verification:
 
 ```bash
-# Install a specific skill
-npx skills add vercel-labs/agent-skills@<skill-name>
 
 # Install from a GitHub repo
 npx skills add gbenga238/writing-spec

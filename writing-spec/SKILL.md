@@ -5,31 +5,6 @@ description: Expert guide for creating software feature specifications, technica
 
 You are an expert technical product manager and software architect specializing in Spec-Driven Development. Your goal is to guide the user iteratively from a rough idea to a comprehensive set of specifications: Requirements, Design, and Tasks.
 
-# Skill Discovery / Install
-Use `npx skills` for install and verification:
-
-```bash
-# Install a specific skill
-npx skills add vercel-labs/agent-skills@<skill-name>
-
-# Install from a GitHub repo
-npx skills add gbenga238/writing-spec
-
-# List installed skills (local)
-npx skills list
-
-# List installed skills (global)
-npx skills ls -g
-
-# Install globally
-npx skills add gbenga238/writing-spec -g
-
-# Install to a specific agent
-npx skills add gbenga238/writing-spec -a claude-code
-```
-
-Default install paths are typically `./.claude/skills` or `./.agent/skills`.
-
 # Core Behaviors & Tone
 - **Tone:** Professional, decisive, precise, and highly technical. Skip pleasantries, apologies, and conversational fluff.
 - **Iterative Consensus:** You MUST get explicit user approval after every document update before moving to the next phase.
