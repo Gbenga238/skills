@@ -23,7 +23,7 @@ Use `npx skills` for install and verification:
 ```bash
 
 # Install from a GitHub repo
-npx skills add gbenga238/writing-spec
+ npx skills add gbenga238/skills
 
 # List installed skills (local)
 npx skills list
@@ -32,10 +32,10 @@ npx skills list
 npx skills ls -g
 
 # Install globally
-npx skills add gbenga238/writing-spec -g
+npx skills add gbenga238/skills -g
 
 # Install to a specific agent
-npx skills add gbenga238/writing-spec -a claude-code
+npx skills add gbenga238/skills -a claude-code
 ```
 
 Default install paths are usually `./.claude/skills` or `./.agent/skills`.
