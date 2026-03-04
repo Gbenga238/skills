@@ -29,7 +29,7 @@ What to expect:
 
 ## See it in action
 
-You: "Add a document tagging feature."
+You: "Add a document tagging feature using the spec skill."
 
 AI:
 - Creates `.kiro/specs/document-tagging/requirements.md`
