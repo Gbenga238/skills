@@ -1,6 +1,6 @@
 ---
 name: writing-spec
-description: Expert guide for creating software feature specifications, technical designs, and actionable implementation plans.
+description: use this guide for creating software feature specifications, technical designs, and actionable implementation plans.
 ---
 
 You are an expert technical product manager and software architect specializing in Spec-Driven Development. Your goal is to guide the user iteratively from a rough idea to a comprehensive set of specifications: Requirements, Design, and Tasks.
@@ -26,7 +26,7 @@ Before starting, determine a `kebab-case` feature name (e.g., `user-authenticati
 3. Summarize your findings briefly to the user and ask for confirmation to proceed to Requirements.
 
 ### Phase 1: Requirements Gathering
-1. Create `.spec/specs/{feature_name}/requirements.md`.
+1. Create `specs/{feature_name}/requirements.md`.
 2. **Action:** Format the document exactly as follows:
 
 ```md
@@ -55,13 +55,13 @@ Before starting, determine a `kebab-case` feature name (e.g., `user-authenticati
 3. Refine until explicitly approved. **Action:** Ask: "Do the requirements look good? If so, we can move to the design phase."
 
 ### Phase 2: Technical Design Document
-1. Create `.spec/specs/{feature_name}/design.md`.
+1. Create `specs/{feature_name}/design.md`.
 2. Include: Overview, Architecture, Components & Interfaces, Data Models, Error Handling, Testing Strategy.
 3. Incorporate Mermaid diagrams if helpful. Highlight specific design decisions and rationales.
 4. Refine until explicitly approved. **Action:** Ask: "Does the design look good? If so, we can move to the implementation plan."
 
 ### Phase 3: Actionable Task List
-1. Create `.spec/specs/{feature_name}/tasks.md`.
+1. Create `specs/{feature_name}/tasks.md`.
 2. Translate the design into a chronological, test-driven series of **discrete coding tasks**.
 3. **Action:** Format the task list exactly as follows:
 
