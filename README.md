@@ -1,20 +1,43 @@
 # writing-spec skill
 
-This skill helps you turn a rough product idea into a clear, build-ready specification.
+Build clear, execution-ready specs before writing implementation code.
 
-If you're new to spec writing, think of a spec as a blueprint for a feature before coding starts. It removes guesswork by defining what should be built, how it should work, and how implementation should be broken into practical tasks.
+If you're new to specs: this is the planning layer between "idea" and "code."
+It helps you define what should be built, what success looks like, and the safest path to implement it.
 
-What to expect from this skill:
-- It starts with requirements (what users need and the rules the feature must follow)
-- Then moves to technical design (how the system should be structured)
-- Finally creates implementation tasks (small, actionable coding steps)
+Our philosophy:
+- -> clear over clever
+- -> iterative refinement over one-shot plans
+- -> practical outputs over documentation theater
+- -> works in real, existing codebases
+- -> useful for solo builders and teams
 
-By the end, you should have a full spec package you can hand to an engineer or coding agent with much less ambiguity.
+What this skill does:
+1. Creates requirements (`requirements.md`) with clear user stories + acceptance criteria
+2. Builds technical design (`design.md`) covering architecture, models, interfaces, and testing
+3. Generates implementation tasks (`tasks.md`) as actionable coding steps
 
-Use this skill to create or refine feature specs with a strict flow:
-1. Requirements
-2. Technical design
-3. Implementation tasks
+What to expect:
+- You start with a rough feature idea
+- The workflow converts it into structured planning artifacts
+- You review and approve each artifact before the next phase
+- You finish with a concrete implementation checklist for engineers or coding agents
+
+> Tip
+> This skill follows a strict 3-stage flow: requirements -> design -> tasks.
+> It is planning-first and intentionally does not implement feature code.
+
+## See it in action
+
+You: "Add a document tagging feature."
+
+AI:
+- Creates `.kiro/specs/document-tagging/requirements.md`
+- Creates `.kiro/specs/document-tagging/design.md`
+- Creates `.kiro/specs/document-tagging/tasks.md`
+- Requests approval at each stage before continuing
+
+Ready to execute after approval: open `tasks.md` and implement items in order.
 
 ## Install / discover skills
 
